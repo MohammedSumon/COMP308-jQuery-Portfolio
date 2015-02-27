@@ -1,4 +1,10 @@
-﻿body{
+﻿/*
+   jQuery Mobile Portfolio Website
+   Mohammed Sumon
+   Mohammed Sumon's Mobile Website
+   This is my css file for mobile website 
+*/
+body{
     font-weight:bold;
     font-family:Amaranth, sans-serif, 700;
 
@@ -9,14 +15,19 @@
 #footer{
    
 }
+/*Set the opacity of the panels*/
 #panel1, #panel2, #panel3{
     opacity:0.9;   
 }
+
+/*set image height and width*/
 section #projImg{
     height:200px;
     width:150px; 
     border-radius:30%;
 }
+
+/* page container and shading and radius*/
 #wrapper {
     border-radius: 2%;
     margin: 2%;
@@ -60,9 +71,7 @@ section #projImg{
     /* resize the icon*/
     width: 30px;
     height: 30px;
-    padding:5px;
-
-    
+    padding:5px;    
 }
 footer{
    text-align:center;
