@@ -1,0 +1,38 @@
+﻿
+
+#wrapper {
+    border-radius: 2%;
+    margin: 2%;
+    /*padding:0;
+    height: 99%;*/
+    background-image: url('../Content/images/bg1.jpg');
+    box-shadow: 10px 10px 5px #888888;
+    opacity: 0.9;
+    /*border:dashed black;*/
+}
+.projectimg, .serviceimg{
+    height:200px;
+    width:150px; 
+    border-radius:30%;
+}
+.ui-block-a, .ui-block-b:after{
+       
+}
+
+.slider{
+    margin:5%;
+    border:none;
+}
+#socialNetwork a img{    
+    background-color: transparent;
+    border-radius: 5px;
+    /* resize the icon*/
+    width: 30px;
+    height: 30px;
+    padding:5px;
+    display:inline-block;
+    
+}
+footer{
+   text-align:center;
+}
