@@ -66,29 +66,39 @@
         <!--Panel Divider for overlay slider-->
         <div data-role="panel" id="panel3" data-position="left" data-display="overlay"
              data-theme="f">
-            <h4 id="section_header">Education</h4>
-            <p>
-                <b>Software Engineering Technology Advanced Diploma</b>
-                <br />Centennial College
-                <br />Sept 2012-April 2015
-            </p>
+            <div id="wrapper">
+                <h2 id="sectionheader">Education</h2>
+                <p>
+                    <b>Software Engineering Technology</b>
+                    <br />Centennial College
+                    <br />Sept 2012 - December 2015
+                    <br />Advanced Diploma
+                </p>
+                <a class="ui-btn ui-btn-corner-all" data-icon="back" data-rel="close">Close</a>
+            </div>
         </div>
         <div data-role="panel" id="panel2" data-position="left" data-display="overlay"
              data-theme="">
-            <h4 id="section_header">Courses</h4>
-            <p>
-                <ul>
-                    <li>Programming 1, 2, 3</li>
-                    <li>Software Testing</li>
-                    <li>Advanced Database Concepts</li>
-                </ul>
-            </p>
+            <div id="wrapper">
+                <h2 id="sectionheader">Courses</h2>
+                <p>
+                    <ul>
+                        <li>Programming 1, 2, 3</li>
+                        <li>Project Management</li>
+                        <li>Advanced Database Concepts</li>
+                        <li>Game Programming</li>
+                    </ul>
+                </p>
+                <a class="ui-btn ui-btn-corner-all" data-icon="back" data-rel="close">Close</a>
+            </div>
         </div>
-        <div data-role="panel" id="panel1" data-position="right" data-display="overlay"
+        <div data-role="panel" id="panel1" data-position="left" data-display="overlay"
              data-theme="">
-            <h3 id="section_header">About Me</h3>
-            <p>My name is Mohammed and I am currently enrolled as a Software Engineering Technology student at Centennial College. I am currently completing my third year in the program and have acquired the necessary skills and tools to help you <span>make your software/web designs dreams come true!!</span></p>
-
+            <div id="wrapper">
+                <h2 id="sectionheader">About Me</h2>
+                <p>My name is Mohammed and I am currently enrolled as a Software Engineering Technology student at Centennial College. I am currently completing my third year in the program and have acquired the necessary skills and tools to help you <span>make your software/web designs dreams come true!!</span></p>
+                <a class="ui-btn ui-btn-corner-all" data-icon="back" data-rel="close">Close</a>
+            </div>
         </div>
         <header data-role="header">
             <div align="center">
@@ -214,28 +224,28 @@
             <!--Content Section-->
             <section data-role="content" align="center">
                 <div class="ui-grid-b">
-                    <div class="ui-block-a" >
+                    <div class="ui-block-a">
                         <img id="projImg" src="Content/images/proj1.jpg" />
                         <a href="#projects" class="ui-btn ui-corner-all ui-shadow">Project One</a>
                     </div>
-                    <div class="ui-block-b" >
+                    <div class="ui-block-b">
                         <img id="projImg" src="Content/images/proj2.jpg" />
                         <a href="#projects" class="ui-btn ui-corner-all ui-shadow">Project two</a>
                     </div>
                     <div class="ui-block-c">
-                        <img  id="projImg" src="Content/images/proj3.jpg" />
+                        <img id="projImg" src="Content/images/proj3.jpg" />
                         <a href="#projects" class="ui-btn ui-corner-all ui-shadow">Project 3</a>
                     </div>
-                </div>               
+                </div>
             </section>
         </div>
-              
-            <!--Footer-->
-            <footer id="footer" data-role="footer" data-position="fixed">
-                <h5 id="CopyRight">&copy; 2015 Mohammed Sumon. All rights reserved.</h5>
-                <!--full site link-->
-                <a id="fullSite" href="http://mohammedsumon.github.io/" data-role="none">Full Site</a>
-            </footer>      
+
+        <!--Footer-->
+        <footer id="footer" data-role="footer" data-position="fixed">
+            <h5 id="CopyRight">&copy; 2015 Mohammed Sumon. All rights reserved.</h5>
+            <!--full site link-->
+            <a id="fullSite" href="http://mohammedsumon.github.io/" data-role="none">Full Site</a>
+        </footer>
     </div>
 
     <!-- Services PAGE WRAPPER -->
@@ -261,7 +271,7 @@
             <!--Content Section-->
             <section data-role="content" align="center">
                 <div class="ui-grid-a">
-                    <div class="ui-block-a" >
+                    <div class="ui-block-a">
                         <img id="projImg" src="Content/images/prgramming.jpg" />
                         <h3>Programming</h3>
                         <p>Familiar with many programming languages such as C#, C++, Java, Linux</p>
@@ -280,7 +290,7 @@
                         <img id="projImg" src="Content/images/consult.jpg" />
                         <h3>Consultations</h3>
                         <p>Provide consultations to help alleviate some of your stress to allow you to make the perfect decision for your company</p>
-                    </div>                    
+                    </div>
                 </div>
             </section>
         </div>

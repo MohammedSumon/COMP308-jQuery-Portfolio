@@ -1,12 +1,16 @@
 ﻿body{
     font-weight:bold;
-    font-family: 'Amaranth', sans-serif;
+    font-family:Amaranth, sans-serif, 700;
+
 }
 #navbar{
     border-bottom:5px solid green;
 }
 #footer{
    
+}
+#panel1, #panel2, #panel3{
+    opacity:0.9;   
 }
 section #projImg{
     height:200px;
@@ -20,6 +24,13 @@ section #projImg{
     height: 99%;*/
     background-image: url('../Content/images/bg1.png');   
     box-shadow: 10px 10px 5px #888888;}
+#wrapper #sectionheader{
+     font-weight:800;
+	text-align: center;
+	background-color: #f6f6f6;
+    opacity:0.5;
+
+}
 #section_header h1{
     font-weight:800;
 	text-align: center;
