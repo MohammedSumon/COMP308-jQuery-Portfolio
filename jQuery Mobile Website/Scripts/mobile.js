@@ -8,6 +8,6 @@ function init() {
 }
 
 // Initialize the slider
-$(function () {
+$(document).ready(function () {
     $("#slider").excoloSlider();
 });
