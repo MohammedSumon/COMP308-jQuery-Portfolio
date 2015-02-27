@@ -5,7 +5,6 @@
    This is my javascript file for personal mobile website 
 */
 function init() {
-
 }
 
 // Initialize the slider

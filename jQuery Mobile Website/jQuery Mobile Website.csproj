@@ -58,7 +58,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Content\images\about1.jpg" />
     <Content Include="Content\images\bg1.png" />
+    <Content Include="Content\images\bg3.jpg" />
     <Content Include="Content\images\consult.jpg" />
     <Content Include="Content\images\logo.jpg" />
     <Content Include="Content\images\pm.jpg" />

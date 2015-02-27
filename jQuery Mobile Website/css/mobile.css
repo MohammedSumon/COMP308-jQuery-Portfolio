@@ -15,6 +15,10 @@ body{
 #footer{
    
 }
+#slider img{
+    height:100%;
+    width:100%;
+}
 /*Set the opacity of the panels*/
 #panel1, #panel2, #panel3{
     opacity:0.9;   
@@ -22,8 +26,8 @@ body{
 
 /*set image height and width*/
 section #projImg{
-    height:200px;
-    width:150px; 
+    height:150px;
+    width:100px; 
     border-radius:30%;
 }
 
@@ -53,8 +57,8 @@ section #projImg{
 	border-bottom: 4px solid #dc4a49;
 }
 .projectimg, .serviceimg{
-    height:200px;
-    width:150px; 
+    height:150px;
+    width:100px; 
     border-radius:30%;
 }
 .ui-block-a, .ui-block-b:after{
@@ -62,7 +66,7 @@ section #projImg{
 }
 
 .slider{
-    margin:5%;
+    margin:2%;
     border:none;
 }
 #socialNetwork a img{    
