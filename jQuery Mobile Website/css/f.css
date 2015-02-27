@@ -1128,7 +1128,7 @@ html body .ui-group-theme-f .ui-btn:hover,
 html head + body .ui-btn.ui-btn-f:hover {
 	background-color: #333bcc /*{f-bhover-background-color}*/;
 	border-color: #dddddd /*{f-bhover-border}*/;
-	color: #a6a6a6 /*{f-bhover-color}*/;
+	color: #e6e6e6 /*{f-bhover-color}*/;
 	text-shadow: 0 /*{f-bhover-shadow-x}*/ 0 /*{f-bhover-shadow-y}*/ 0 /*{f-bhover-shadow-radius}*/ #f3f3f3 /*{f-bhover-shadow-color}*/;
 }
 /* Button down */

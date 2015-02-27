@@ -9,6 +9,7 @@
     <link href="Content/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
     <link href="css/f.css" rel="stylesheet" />
     <link href="css/mobile.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Amaranth:700,400italic,400' rel='stylesheet' type='text/css'>
 </head>
 <body onload="init();">
     <!-- HOME PAGE WRAPPER -->
@@ -28,18 +29,18 @@
 
         <div id="wrapper">
             <div id="section_header" align="center">
-                <h1>Hello, my name is <span>Mohammed!</span></h1>
+                <h1>Hello, I'm <span>Mohammed!</span></h1>
                 <h2><span>Welcome</span> to my site</h2>
             </div>
             <div data-role="content">
-                <div class="ui-grid-a">
+                <div class="ui-grid-a" align="center">
                     <div class="ui-block-a">
-                        <a href="#" class="ui-btn ui-corner-all ui-shadow"><img class="projectimg" src="Content/images/projects.jpg" /></a>
-                        <a href="#" class="ui-btn ui-corner-all ui-shadow">Projects</a>
+                        <a href="#projects"><img class="projectimg" src="Content/images/projects.jpg" /></a>
+                        <a href="#projects" class="ui-btn ui-corner-all ui-shadow">Projects</a>
                     </div>
                     <div class="ui-block-b">
-                        <a href="#" class="ui-btn ui-corner-all ui-shadow"><img class="serviceimg" src="Content/images/services.jpg" /></a>
-                        <a href="#" class="ui-btn ui-corner-all ui-shadow">Services</a>
+                        <a href="#services"><img class="serviceimg" src="Content/images/services.jpg" /></a>
+                        <a href="#services" class="ui-btn ui-corner-all ui-shadow">Services</a>
                     </div>
                 </div>
 
@@ -53,8 +54,8 @@
                 </div>
             </div>
 
-            <footer data-role="footer" data-position="fixed">
-                <h4>CopyRight 2015</h4>
+            <footer id="footer" data-role="footer" data-position="fixed">
+                <h5 id="CopyRight">&copy; 2015 Mohammed Sumon. All rights reserved.</h5>
                 <!--full site link-->
                 <a id="fullSite" href="http://mohammedsumon.github.io/" data-role="none">Full Site</a>
             </footer>
@@ -127,8 +128,8 @@
                 </a>
             </section>
 
-            <footer data-role="footer" data-position="fixed">
-                <h4>CopyRight 2015</h4>
+            <footer id="footer" data-role="footer" data-position="fixed">
+                <h5 id="CopyRight">&copy; 2015 Mohammed Sumon. All rights reserved.</h5>
                 <!--full site link-->
                 <a id="fullSite" href="http://mohammedsumon.github.io/" data-role="none">Full Site</a>
             </footer>
@@ -154,7 +155,6 @@
                 <h1><span>Contact </span>info</h1>
             </div>
             <section data-role="content">
-
 
                 <p><span>Address:</span> 941 Progress Avenue, Centennial College</p>
                 <p><span>Email:</span> msumon@my.centennialcollege.ca</p>
@@ -184,12 +184,113 @@
                 </div>
             </section>
 
-            <footer data-role="footer" data-position="fixed">
-                <h4>CopyRight 2015</h4>
+            <footer id="footer" data-role="footer" data-position="fixed">
+                <h5 id="CopyRight">&copy; 2015 Mohammed Sumon. All rights reserved.</h5>
                 <!--full site link-->
                 <a id="fullSite" href="http://mohammedsumon.github.io/" data-role="none">Full Site</a>
             </footer>
         </div>
+    </div>
+    <!-- PROJECTS PAGE WRAPPER -->
+    <div data-role="page" id="projects" data-theme="f">
+        <header data-role="header">
+            <div align="center">
+                <img id="logo" src="Content/images/logo.jpg" />
+            </div>
+            <div data-role="navbar" id="navbar">
+                <ul>
+                    <li><a href="#home" data-role="button" data-icon="back" data-transition="slideup">Go Back</a></li>
+                    <li><a href="#home" data-icon="home" data-transition="slide">Home</a></li>
+                    <li><a href="#about" data-icon="gear" data-transition="slide">About</a></li>
+                    <li><a href="#contacts" data-icon="info" data-transition="slide">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <div id="wrapper">
+            <div id="section_header" align="center">
+                <h1><span>Projects</span></h1>
+            </div>
+            <!--Content Section-->
+            <section data-role="content" align="center">
+                <div class="ui-grid-b">
+                    <div class="ui-block-a" >
+                        <img id="projImg" src="Content/images/proj1.jpg" />
+                        <a href="#projects" class="ui-btn ui-corner-all ui-shadow">Project One</a>
+                    </div>
+                    <div class="ui-block-b" >
+                        <img id="projImg" src="Content/images/proj2.jpg" />
+                        <a href="#projects" class="ui-btn ui-corner-all ui-shadow">Project two</a>
+                    </div>
+                    <div class="ui-block-c">
+                        <img  id="projImg" src="Content/images/proj3.jpg" />
+                        <a href="#projects" class="ui-btn ui-corner-all ui-shadow">Project 3</a>
+                    </div>
+                </div>               
+            </section>
+        </div>
+              
+            <!--Footer-->
+            <footer id="footer" data-role="footer" data-position="fixed">
+                <h5 id="CopyRight">&copy; 2015 Mohammed Sumon. All rights reserved.</h5>
+                <!--full site link-->
+                <a id="fullSite" href="http://mohammedsumon.github.io/" data-role="none">Full Site</a>
+            </footer>      
+    </div>
+
+    <!-- Services PAGE WRAPPER -->
+    <div data-role="page" id="services" data-theme="f">
+        <header data-role="header">
+            <div align="center">
+                <img id="logo" src="Content/images/logo.jpg" />
+            </div>
+            <div data-role="navbar" id="navbar">
+                <ul>
+                    <li><a href="#home" data-role="button" data-icon="back" data-transition="slideup">Go Back</a></li>
+                    <li><a href="#home" data-icon="home" data-transition="slide">Home</a></li>
+                    <li><a href="#about" data-icon="gear" data-transition="slide">About</a></li>
+                    <li><a href="#contacts" data-icon="info" data-transition="slide">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <div id="wrapper">
+            <div id="section_header" align="center">
+                <h1><span>Services</span></h1>
+            </div>
+            <!--Content Section-->
+            <section data-role="content" align="center">
+                <div class="ui-grid-a">
+                    <div class="ui-block-a" >
+                        <img id="projImg" src="Content/images/prgramming.jpg" />
+                        <h3>Programming</h3>
+                        <p>Familiar with many programming languages such as C#, C++, Java, Linux</p>
+                    </div>
+                    <div class="ui-block-b">
+                        <img id="projImg" src="Content/images/webdesign.jpg" />
+                        <h3>Website Design</h3>
+                        <p>Create and design websites by incorpirating jQuery, HTML5, and CSS as well as bootstrap and foundation frameworks</p>
+                    </div>
+                    <div class="ui-block-a">
+                        <img id="projImg" src="Content/images/pm.jpg" />
+                        <h3>Project Management</h3>
+                        <p>Extremely comfortable working in a team environment. Also, in leading and managing projects from beginning to end.</p>
+                    </div>
+                    <div class="ui-block-b">
+                        <img id="projImg" src="Content/images/consult.jpg" />
+                        <h3>Consultations</h3>
+                        <p>Provide consultations to help alleviate some of your stress to allow you to make the perfect decision for your company</p>
+                    </div>                    
+                </div>
+            </section>
+        </div>
+
+        <!--Footer-->
+        <footer id="footer" data-role="footer" data-position="fixed">
+            <h5 id="CopyRight">&copy; 2015 Mohammed Sumon. All rights reserved.</h5>
+            <!--full site link-->
+            <a id="fullSite" href="http://mohammedsumon.github.io/" data-role="none">Full Site</a>
+        </footer>
     </div>
     <!-- JavaScript Section -->
     <script src="Scripts/jquery-1.9.1.min.js"></script>

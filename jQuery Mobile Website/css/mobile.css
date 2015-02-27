@@ -1,6 +1,17 @@
-﻿
+﻿body{
+    font-weight:bold;
+    font-family: 'Amaranth', sans-serif;
+}
 #navbar{
     border-bottom:5px solid green;
+}
+#footer{
+   
+}
+section #projImg{
+    height:200px;
+    width:150px; 
+    border-radius:30%;
 }
 #wrapper {
     border-radius: 2%;
