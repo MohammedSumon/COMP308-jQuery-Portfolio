@@ -7,64 +7,65 @@
     <!-- CSS SECTION -->
     <link href="Content/jquery.excoloSlider.css" rel="stylesheet" />
     <link href="Content/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
-    <link href="css/my-custom-theme.css" rel="stylesheet" />
+    <link href="css/f.css" rel="stylesheet" />
     <link href="css/mobile.css" rel="stylesheet" />
 </head>
 <body onload="init();">
     <!-- HOME PAGE WRAPPER -->
-    <div data-role="page" id="home" data-theme="a">
-        <header data-role="header"> 
+    <div data-role="page" id="home" data-theme="f">
+        <header data-role="header">
             <div align="center">
-                <br />
                 <img id="logo" src="Content/images/logo.jpg" />
-                <br />
-                <br />
-            </div>        
-            <div data-role="navbar">                <ul>
+            </div>
+            <div data-role="navbar" id="navbar">
+                <ul>
                     <li><a href="#home" class="ui-btn-active ui-state-persist" data-icon="home" data-transition="slide">Home</a></li>
                     <li><a href="#about" data-icon="gear" data-transition="slide">About</a></li>
                     <li><a href="#contacts" data-icon="info" data-transition="slide">Contact</a></li>
                 </ul>
             </div>
         </header>
-        <h1>Hello, my name is Mohammed!</h1>
-        <h2>Welcome to my Site</h2>
-        <div id="wrapper">           
-        <div data-role="content">            
-        <div class="ui-grid-a">
-            <div class="ui-block-a">
-                <a href="#" class="ui-btn ui-corner-all ui-shadow"><img  class="projectimg" src="Content/images/projects.jpg" /></a>
-                <a href="#" class="ui-btn ui-corner-all ui-shadow">Projects</a>
-            </div>
-            <div class="ui-block-b">
-                <a href="#" class="ui-btn ui-corner-all ui-shadow"><img class="serviceimg" src="Content/images/services.jpg" /></a>
-                <a href="#" class="ui-btn ui-corner-all ui-shadow">Services</a>
-            </div>
-        </div>
 
-        <div id="slider">
-            <img src="Content/images/work1.jpg" />
-            <img src="Content/images/work2.jpg" />
-            <img src="Content/images/work3.jpg" />
-            <img src="images/image2.jpg">
-            <img src="images/image3.jpg">
-            <img src="images/image4.jpg" data-plugin-slide-caption="I am a caption ><b>and I can contain HTML.</b>">
-        </div>
-        </div>
+        <div id="wrapper">
+            <div id="section_header" align="center">
+                <h1>Hello, my name is <span>Mohammed!</span></h1>
+                <h2><span>Welcome</span> to my site</h2>
+            </div>
+            <div data-role="content">
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <a href="#" class="ui-btn ui-corner-all ui-shadow"><img class="projectimg" src="Content/images/projects.jpg" /></a>
+                        <a href="#" class="ui-btn ui-corner-all ui-shadow">Projects</a>
+                    </div>
+                    <div class="ui-block-b">
+                        <a href="#" class="ui-btn ui-corner-all ui-shadow"><img class="serviceimg" src="Content/images/services.jpg" /></a>
+                        <a href="#" class="ui-btn ui-corner-all ui-shadow">Services</a>
+                    </div>
+                </div>
 
-        <footer data-role="footer" data-position="fixed">
-            <h4>CopyRight 2015</h4>
-            <!--full site link-->
-            <a id="fullSite" href="http://mohammedsumon.github.io/" data-role="none">Full Site</a>
-        </footer>
-       </div>
+                <div id="slider">
+                    <img src="Content/images/work1.jpg" />
+                    <img src="Content/images/work2.jpg" />
+                    <img src="Content/images/work3.jpg" />
+                    <img src="images/image2.jpg">
+                    <img src="images/image3.jpg">
+                    <img src="images/image4.jpg" data-plugin-slide-caption="I am a caption ><b>and I can contain HTML.</b>">
+                </div>
+            </div>
+
+            <footer data-role="footer" data-position="fixed">
+                <h4>CopyRight 2015</h4>
+                <!--full site link-->
+                <a id="fullSite" href="http://mohammedsumon.github.io/" data-role="none">Full Site</a>
+            </footer>
+        </div>
     </div>
     <!-- ABOUT ME PAGE WRAPPER -->
-    <div data-role="page" id="about">
+    <div data-role="page" id="about" data-theme="f">
         <!--Panel Divider for overlay slider-->
         <div data-role="panel" id="panel3" data-position="left" data-display="overlay"
-             data-theme="">
-            <h4>Education</h4>
+             data-theme="f">
+            <h4 id="section_header">Education</h4>
             <p>
                 <b>Software Engineering Technology Advanced Diploma</b>
                 <br />Centennial College
@@ -73,7 +74,7 @@
         </div>
         <div data-role="panel" id="panel2" data-position="left" data-display="overlay"
              data-theme="">
-            <h4>Courses</h4>
+            <h4 id="section_header">Courses</h4>
             <p>
                 <ul>
                     <li>Programming 1, 2, 3</li>
@@ -84,13 +85,15 @@
         </div>
         <div data-role="panel" id="panel1" data-position="right" data-display="overlay"
              data-theme="">
-            <h3>About Me</h3>
+            <h3 id="section_header">About Me</h3>
             <p>My name is Mohammed and I am currently enrolled as a Software Engineering Technology student at Centennial College. I am currently completing my third year in the program and have acquired the necessary skills and tools to help you <span>make your software/web designs dreams come true!!</span></p>
 
         </div>
         <header data-role="header">
-            <h1>About Me</h1>
-            <div data-role="navbar">
+            <div align="center">
+                <img id="logo" src="Content/images/logo.jpg" />
+            </div>
+            <div data-role="navbar" id="navbar">
                 <ul>
                     <li><a href="#home" data-icon="home" data-transition="slide">Home</a></li>
                     <li><a href="#about" class="ui-btn-active ui-state-persist" data-icon="info" data-transition="slide">About</a></li>
@@ -98,41 +101,47 @@
                 </ul>
             </div>
         </header>
-        <section data-role="content">
+        <div id="wrapper">
             <!--tagline-->
-            <div align="center">
-                <h1>Perceive and Perfect</h1>
+            <div align="center" id="section_header">
+                <h1><span>Perceive</span> and Perfect</h1>
                 <!--mission statement-->
-                <h3>Get it done right, EVERYTIME!!</h3>
+                <h2>Get it<span> done right</span> , EVERYTIME!!</h2>
             </div>
-            <div align="center">
-                <img src="Content/images/me.jpg" class="img-responsive img-circle center" alt=" ">
-            </div>
-            <a data-controltype="panelbutton" data-role="button" href="#panel1" data-icon="bars"
-               data-iconpos="left">
-                About
-            </a>
-            <a data-controltype="panelbutton" data-role="button" href="#panel2" data-icon="bars"
-               data-iconpos="left">
-                Courses
-            </a>
-            <a data-controltype="panelbutton" data-role="button" href="#panel3" data-icon="bars"
-               data-iconpos="left">
-                Education
-            </a>
-        </section>
+            <section data-role="content">
 
-        <footer data-role="footer" data-position="fixed">
-            <h4>CopyRight 2015</h4>
-            <!--full site link-->
-            <a id="fullSite" href="http://mohammedsumon.github.io/" data-role="none">Full Site</a>
-        </footer>
+                <div align="center">
+                    <img src="Content/images/me.jpg" class="img-responsive img-circle center" alt=" ">
+                </div>
+                <a data-controltype="panelbutton" data-role="button" href="#panel1" data-icon="bars"
+                   data-iconpos="left">
+                    About
+                </a>
+                <a data-controltype="panelbutton" data-role="button" href="#panel2" data-icon="bars"
+                   data-iconpos="left">
+                    Courses
+                </a>
+                <a data-controltype="panelbutton" data-role="button" href="#panel3" data-icon="bars"
+                   data-iconpos="left">
+                    Education
+                </a>
+            </section>
+
+            <footer data-role="footer" data-position="fixed">
+                <h4>CopyRight 2015</h4>
+                <!--full site link-->
+                <a id="fullSite" href="http://mohammedsumon.github.io/" data-role="none">Full Site</a>
+            </footer>
+        </div>
     </div>
     <!-- CONTACTS PAGE WRAPPER -->
-    <div data-role="page" id="contacts">
+    <div data-role="page" id="contacts" data-theme="f">
+
         <header data-role="header">
-            <h1>Contact Me</h1>
-            <div data-role="navbar">
+            <div align="center">
+                <img id="logo" src="Content/images/logo.jpg" />
+            </div>
+            <div data-role="navbar" id="navbar">
                 <ul>
                     <li><a href="#home" data-icon="home" data-transition="slide">Home</a></li>
                     <li><a href="#about" data-icon="gear" data-transition="flip">About</a></li>
@@ -140,42 +149,47 @@
                 </ul>
             </div>
         </header>
-        <section data-role="content">
-           
-        <h3>Contact info</h3>
-        <p><span>Address:</span> 941 Progress Avenue, Centennial College</p>
-        <p><span>Email:</span> msumon@my.centennialcollege.ca</p>
-        <p><span>Phone:</span><a href="tel:6472025110" rel="external">647-202-5110</a></p>
-        <div class="ui-corner-all" id="socialNetwork">
-            <div class="ui-bar ui-bar-f" align="center">
-                <h3>Keep Connected with me!</h3>
+        <div id="wrapper">
+            <div id="section_header">
+                <h1><span>Contact </span>info</h1>
             </div>
-            <div align="center">
-                <a href="http://twitter.com">
-                    <img src="Content/images/twitter.png" >
-                </a>
-                <a href="http://pinterest.com">
-                    <img src="Content/images/pint.png" />
-                </a>
-                <a href="http://facebook.com"><img src="Content/images/fb.png" ></a>
-                <a href="http://twitter.com">
-                    <img src="Content/images/twitter.png" >
-                </a>
-                <a href="http://skype.com">
-                    <img src="Content/images/skype.png" >
-                </a>
-                <a href="http://blogspot.com">
-                    <img src="Content/images/blog.png" />
-                </a>
-            </div>
-        </div>
-    </section>
+            <section data-role="content">
 
-        <footer data-role="footer" data-position="fixed">
-            <h4>CopyRight 2015</h4>
-            <!--full site link-->
-            <a id="fullSite" href="http://mohammedsumon.github.io/" data-role="none">Full Site</a>
-        </footer>
+
+                <p><span>Address:</span> 941 Progress Avenue, Centennial College</p>
+                <p><span>Email:</span> msumon@my.centennialcollege.ca</p>
+                <p><span>Phone:</span><a href="tel:6472025110" rel="external">647-202-5110</a></p>
+                <div class="ui-corner-all" id="socialNetwork">
+                    <div class="ui-bar ui-bar-f" align="center">
+                        <h3>Keep Connected with me!</h3>
+                    </div>
+                    <div align="center">
+                        <a href="http://twitter.com">
+                            <img src="Content/images/twitter.png">
+                        </a>
+                        <a href="http://pinterest.com">
+                            <img src="Content/images/pint.png" />
+                        </a>
+                        <a href="http://facebook.com"><img src="Content/images/fb.png"></a>
+                        <a href="http://twitter.com">
+                            <img src="Content/images/twitter.png">
+                        </a>
+                        <a href="http://skype.com">
+                            <img src="Content/images/skype.png">
+                        </a>
+                        <a href="http://blogspot.com">
+                            <img src="Content/images/blog.png" />
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <footer data-role="footer" data-position="fixed">
+                <h4>CopyRight 2015</h4>
+                <!--full site link-->
+                <a id="fullSite" href="http://mohammedsumon.github.io/" data-role="none">Full Site</a>
+            </footer>
+        </div>
     </div>
     <!-- JavaScript Section -->
     <script src="Scripts/jquery-1.9.1.min.js"></script>

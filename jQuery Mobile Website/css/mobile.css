@@ -1,14 +1,23 @@
 ﻿
-
+#navbar{
+    border-bottom:5px solid green;
+}
 #wrapper {
     border-radius: 2%;
     margin: 2%;
     /*padding:0;
     height: 99%;*/
-    background-image: url('../Content/images/bg1.jpg');
-    box-shadow: 10px 10px 5px #888888;
-    opacity: 0.9;
-    /*border:dashed black;*/
+    background-image: url('../Content/images/bg1.png');   
+    box-shadow: 10px 10px 5px #888888;}
+#section_header h1{
+    font-weight:800;
+	text-align: center;
+	background-color: #f6f6f6;
+    opacity:0.5;
+       
+}
+#section_header h1 span, #section_header h2 span{
+	border-bottom: 4px solid #dc4a49;
 }
 .projectimg, .serviceimg{
     height:200px;
@@ -24,13 +33,13 @@
     border:none;
 }
 #socialNetwork a img{    
-    background-color: transparent;
+
     border-radius: 5px;
     /* resize the icon*/
     width: 30px;
     height: 30px;
     padding:5px;
-    display:inline-block;
+
     
 }
 footer{

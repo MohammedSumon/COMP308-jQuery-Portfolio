@@ -59,10 +59,13 @@
   <ItemGroup>
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Content\images\bg1.jpg" />
+    <Content Include="Content\images\bg1.png" />
     <Content Include="Content\images\logo.jpg" />
     <Content Include="Content\images\projects.jpg" />
     <Content Include="Content\images\services.jpg" />
     <Content Include="Content\jquery.excoloSlider.css" />
+    <Content Include="css\f.css" />
+    <Content Include="css\f.min.css" />
     <Content Include="css\swiper.min.css" />
     <Content Include="Scripts\jquery-1.8.0.min.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
