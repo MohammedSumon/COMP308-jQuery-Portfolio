@@ -12,9 +12,7 @@ body{
 #navbar{
     border-bottom:5px solid green;
 }
-#footer{
-   
-}
+
 #slider img{
     height:100%;
     width:100%;
@@ -77,7 +75,6 @@ section #projImg{
     height: 30px;
     padding:5px;    
 }
-footer{
-    background-color:#9b80cd;
+#footer{
    text-align:center;
 }
