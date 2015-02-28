@@ -321,6 +321,7 @@
     <Content Include="Scripts\jquery.mobile-1.4.5.min.js" />
     <Content Include="Scripts\mobile.js" />
     <Content Include="Scripts\swiper.min.js" />
+    <None Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Scripts\jquery.mobile-1.4.5.min.map" />
   </ItemGroup>
