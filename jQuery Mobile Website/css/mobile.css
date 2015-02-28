@@ -45,19 +45,24 @@ section #projImg{
 
 }
 #section_header h1{
-    font-weight:800;
+    font-size:50px;
 	text-align: center;
 	background-color: #f6f6f6;
-    opacity:0.5;
+    opacity:0.45;
        
+}
+#contactinfo{
+    font-weight:bold;
+    font-size:larger;
 }
 #section_header h1 span, #section_header h2 span{
 	border-bottom: 4px solid #dc4a49;
+    
 }
 .projectimg, .serviceimg{
-    height:150px;
-    width:100px; 
-    border-radius:30%;
+    height:175px;
+    width:120px; 
+    border-radius:5%;
 }
 .ui-block-a, .ui-block-b:after{
        
@@ -71,8 +76,8 @@ section #projImg{
 
     border-radius: 5px;
     /* resize the icon*/
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     padding:5px;    
 }
 #footer{
