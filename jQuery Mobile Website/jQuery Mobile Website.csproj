@@ -70,6 +70,7 @@
     <Content Include="Content\images\proj2.jpg" />
     <Content Include="Content\images\proj3.jpg" />
     <Content Include="Content\images\projects.jpg" />
+    <Content Include="Content\images\projPic.jpg" />
     <Content Include="Content\images\services.jpg" />
     <Content Include="Content\images\webdesign.jpg" />
     <Content Include="Content\jquery.excoloSlider.css" />
