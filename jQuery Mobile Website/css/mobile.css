@@ -45,10 +45,10 @@ section #projImg{
 
 }
 #section_header h1{
-    font-size:50px;
+    font-size:35px;
 	text-align: center;
 	background-color: #f6f6f6;
-    opacity:0.45;
+    opacity:0.6;
        
 }
 #contactinfo{
@@ -56,7 +56,7 @@ section #projImg{
     font-size:larger;
 }
 #section_header h1 span, #section_header h2 span{
-	border-bottom: 4px solid #dc4a49;
+	border-bottom: 5px ridge #dc4a49;
     
 }
 .projectimg, .serviceimg{
